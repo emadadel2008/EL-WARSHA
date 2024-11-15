@@ -70,7 +70,13 @@ Continue to the [Hands-on lab](https://github.com/microsoft/MCW-Line-of-business
 - [MCW](https://microsoftcloudworkshop.com)
 - [Azure Migration Center](https://azure.microsoft.com/migration)
 - [Azure Database Migration Guide](https://aka.ms/datamigration)
-
+## Resource Links
+- [Azure Migrate Overview](https://learn.microsoft.com/en-us/azure/migrate/migrate-services-overview)
+- [Support matrix for physical server discovery and assessment](https://learn.microsoft.com/en-us/azure/migrate/migrate-support-matrix-physical#physical-server-requirements)
+- [Metadata discovered by Azure Migrate appliance](https://learn.microsoft.com/en-us/azure/migrate/discovered-metadata#software-inventory-data)
+-  Azure Migrate Tools
+- - [Azure Migrate: Database Assessment](https://learn.microsoft.com/en-us/sql/dma/dma-overview?view=sql-server-2017)
+- - [Azure Migrate: Web App Assessment](https://www.microsoft.com/en-us/download/details.aspx?id=53595)
 ## Help & Support
 
 We welcome feedback and comments from Microsoft SMEs & learning partners who deliver MCWs.  
@@ -82,5 +88,4 @@ We welcome feedback and comments from Microsoft SMEs & learning partners who del
 
 If you are planning to present a workshop, *review and test the materials early*! We recommend at least two weeks prior.
 
-### Please allow 5 - 10 business days for review and resolution of issues.
 
