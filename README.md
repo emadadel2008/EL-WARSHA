@@ -83,6 +83,18 @@ We welcome feedback and comments from Microsoft SMEs & learning partners who del
 
 ***Having trouble?***
 - First, verify you have followed all written lab instructions (including the Before the Hands-on lab document).
+## How to reset Azure Migrate Appliance
+
+in public cloud
+Azure Migrate appliance is a simple tool to move VMware virtual machines to Azure. But it has limitation to migrate VMs on multiple vCenter servers. In other words, you have to deploy multiple appliances to support multi-vCenter. This is a time-consuming task. In fact, there is a way to reset the Azure Migrate Appliance.
+
+There is a file appliance.json in Azure Migrate appliance. It stores the key information of the Azure Migrate project. The credentials, vCenter server, and key vault information are all stored in the file. Also the registration status.
+
+The file is located in C:\ProgramData\Microsoft Azure\Config\. It’s a JSON file. The variable IsApplianceRegistered indicates if the appliance registered or not.
+
+Change the value from True to False will reset Azure Migrate appliance status. Of course, you still need to reboot the appliance.
+
+This reset is no impact to stored credential and vCenter server data.
 - Next, submit an issue with a detailed description of the problem.
 - Do not submit pull requests. Our content authors will make all changes and submit pull requests for approval.  
 
