@@ -85,7 +85,7 @@ We welcome feedback and comments from Microsoft SMEs & learning partners who del
 - First, verify you have followed all written lab instructions (including the Before the Hands-on lab document).
 ## How to reset Azure Migrate Appliance
 
-![Alt text](https://example.com/path/to/image.png).
+![Alt text](https://github.com/emadadel2008/EL-WARSHA/blob/main/Discovery%20is%20in%20progress.png?raw=true).
 
 in public cloud
 Azure Migrate appliance is a simple tool to move VMware virtual machines to Azure. But it has limitation to migrate VMs on multiple vCenter servers. In other words, you have to deploy multiple appliances to support multi-vCenter. This is a time-consuming task. In fact, there is a way to reset the Azure Migrate Appliance.
